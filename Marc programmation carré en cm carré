@@ -1,0 +1,11 @@
+def cm2_to_m2(cm2):
+    return cm2 / 10000
+
+# Demander à l'utilisateur d'entrer la valeur en cm²
+cm2 = float(input("Entrez la valeur en cm² : "))
+
+# Appeler la fonction pour convertir
+m2 = cm2_to_m2(cm2)
+
+# Afficher le résultat
+print("En mètres carrés : ", m2)
